@@ -33,7 +33,6 @@ def get_apod():
     }
 
     day_2 = requests.get(url,params=params)
-    #return day_2
 
 # here is some error handeling 
     if day_2.status_code == 200:
@@ -50,3 +49,5 @@ def get_apod():
         return f"<p>Error fetching data: {day_2.status_code}</p>"
    
 # also note you routers a  are differnt  just add the /something at the end of the url and it will start.
+
+
