@@ -78,12 +78,4 @@ I'll update this section when the app is working. For now, here's roughly how it
 - `POST /favorites/<date>` – add favorite
 - `DELETE /favorites/<date>` – remove favorite
 
-## Contact
-
-Tesi  
-[GitHub](https://github.com/[your-username])  
-[LinkedIn](https://linkedin.com/in/[your-profile])
-
----
-
 Thanks for checking out my project.
