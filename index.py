@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def light_postive():
-    return "<p>feeling blessed! ngijulise thixo!!!!!!!</p>"
+    return "<p>I am building something as part of my learning challenge</p>"
 
 # i will fetch the day 2 apod the out shoukd print the title , having some difficluty dont know how to start and do? felling frusttrated but im getting there want to keep the usage of ai to the mimimum
 
@@ -29,8 +29,8 @@ def get_apod():
     url = "https://api.nasa.gov/planetary/apod"
 
     params = { 
-        "api_key":"PpbxFB6KmrffTQPTZuGyqJnwRdhU3ILs8Sw3QY2r"
-    }
+        "api_key":""
+    } 
 
     day_2 = requests.get(url,params=params)
     #return day_2
