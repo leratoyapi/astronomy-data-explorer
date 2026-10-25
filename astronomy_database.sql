@@ -12,3 +12,6 @@ CREATE TABLE `astronomy`.`apod` (
 ENGINE = InnoDB;
 
 SELECT * FROM astronomy.apod;
+
+ALTER TABLE `astronomy`.`apod` 
+CHANGE COLUMN `data` `date` DATE NULL DEFAULT NULL ;
